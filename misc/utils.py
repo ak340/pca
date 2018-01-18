@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 
-def load_mnist(dataset="training", digits=range(10), path='/Users/aidynkemeldinov/Downloads'):
+def load_mnist(dataset="training", digits=range(10), path=os.getcwd() + '/data'):
     
     """
     Load MNIST dataset
